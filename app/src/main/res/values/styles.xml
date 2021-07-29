@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Below is a custom defined ripple for each of the digit buttons -->
+    <style name="colorControlHighlightCustom">
+        <item name="colorControlHighlight">@color/gold</item>
+    </style>
+    <style name="colorControlHighlightCustomDark">
+        <item name="colorControlHighlight">@color/black</item>
+    </style>
+
+    <style name="SelectableItemBackgroundGold">
+        <item name="android:theme">@style/colorControlHighlightCustom</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+    <style name="SelectableItemBackgroundDark">
+        <item name="android:theme">@style/colorControlHighlightCustomDark</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>

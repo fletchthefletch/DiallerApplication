@@ -33,14 +33,14 @@
 
         <Button
             android:id="@+id/btn_delete"
+            style="@style/SelectableItemBackgroundDark"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:fontFamily="sans-serif-condensed-light"
             android:text="@string/deleteText"
             android:textColor="@color/gold"
-            android:textSize="30sp"
-            app:backgroundTint="#FFFFFF" />
+            android:textSize="30sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -55,31 +55,31 @@
 
         <Button
             android:id="@+id/btn_num1"
-            style="@android:style/Widget.DeviceDefault.Light.Button"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num1"
             android:textSize="@dimen/num_size" />
 
         <Button
             android:id="@+id/btn_num2"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num2"
             android:textSize="@dimen/num_size" />
 
         <Button
             android:id="@+id/btn_num3"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num3"
             android:textSize="@dimen/num_size" />
     </LinearLayout>
@@ -96,31 +96,31 @@
 
         <Button
             android:id="@+id/btn_num4"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num4"
             android:textSize="@dimen/num_size" />
 
         <Button
             android:id="@+id/btn_num5"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num5"
             android:textSize="@dimen/num_size" />
 
         <Button
             android:id="@+id/btn_num6"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num6"
             android:textSize="@dimen/num_size" />
 
@@ -138,31 +138,31 @@
 
         <Button
             android:id="@+id/btn_num7"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num7"
             android:textSize="@dimen/num_size" />
 
         <Button
             android:id="@+id/btn_num8"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num8"
             android:textSize="@dimen/num_size" />
 
         <Button
             android:id="@+id/btn_num9"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num9"
             android:textSize="@dimen/num_size" />
 
@@ -180,31 +180,31 @@
 
         <Button
             android:id="@+id/btn_num_asterisk"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/asterisk"
             android:textSize="@dimen/num_size" />
 
         <Button
             android:id="@+id/btn_num0"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/num0"
             android:textSize="@dimen/num_size" />
 
         <Button
             android:id="@+id/btn_num_hash"
-            style="android:attr/buttonBarButtonStyle"
+            style="@style/SelectableItemBackgroundGold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#FFFFFF"
+            android:background="?attr/selectableItemBackground"
             android:text="@string/hash"
             android:textSize="@dimen/num_size" />
     </LinearLayout>
