@@ -249,6 +249,4 @@
             android:text="@string/hash"
             android:textSize="@dimen/num_size" />
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
