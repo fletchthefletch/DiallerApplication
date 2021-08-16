@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_constraint_layout); // instead of activity_main
+        setContentView(R.layout.activity_main_constraint_layout); // Instead of activity_main
 
         // Get permission from user
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        // check all permissions have been granted
+        // Check permission has been granted
         boolean granted = true;
         for (int res: grantResults) {
             if (res != PackageManager.PERMISSION_GRANTED) {
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             }
         }
-        if(granted) {
+        if (granted) {
             try {
                 init();
             } catch (Exception e) {
@@ -109,7 +109,6 @@ public class MainActivity extends AppCompatActivity {
         main_num_textview.setText(result);
     }
     boolean addListeners() {
-        // increase the value of i beyond index to test
         // Add listeners to digit buttons
 
         int orientation = this.getResources().getConfiguration().orientation;
@@ -146,8 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
         catch (Exception e) {
-            //Toast.makeText(this, "Could not add listeners to digits", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, e.toString(), Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Could not add listeners to digits", Toast.LENGTH_SHORT).show();
             return false;
         }
 
